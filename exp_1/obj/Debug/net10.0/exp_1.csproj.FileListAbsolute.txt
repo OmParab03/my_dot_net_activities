@@ -1,0 +1,15 @@
+D:\class\my_dot_net_activities\class\exp_1\bin\Debug\net10.0\exp_1.exe
+D:\class\my_dot_net_activities\class\exp_1\bin\Debug\net10.0\exp_1.deps.json
+D:\class\my_dot_net_activities\class\exp_1\bin\Debug\net10.0\exp_1.runtimeconfig.json
+D:\class\my_dot_net_activities\class\exp_1\bin\Debug\net10.0\exp_1.dll
+D:\class\my_dot_net_activities\class\exp_1\bin\Debug\net10.0\exp_1.pdb
+D:\class\my_dot_net_activities\class\exp_1\obj\Debug\net10.0\exp_1.GeneratedMSBuildEditorConfig.editorconfig
+D:\class\my_dot_net_activities\class\exp_1\obj\Debug\net10.0\exp_1.AssemblyInfoInputs.cache
+D:\class\my_dot_net_activities\class\exp_1\obj\Debug\net10.0\exp_1.AssemblyInfo.cs
+D:\class\my_dot_net_activities\class\exp_1\obj\Debug\net10.0\exp_1.csproj.CoreCompileInputs.cache
+D:\class\my_dot_net_activities\class\exp_1\obj\Debug\net10.0\exp_1.sourcelink.json
+D:\class\my_dot_net_activities\class\exp_1\obj\Debug\net10.0\exp_1.dll
+D:\class\my_dot_net_activities\class\exp_1\obj\Debug\net10.0\refint\exp_1.dll
+D:\class\my_dot_net_activities\class\exp_1\obj\Debug\net10.0\exp_1.pdb
+D:\class\my_dot_net_activities\class\exp_1\obj\Debug\net10.0\exp_1.genruntimeconfig.cache
+D:\class\my_dot_net_activities\class\exp_1\obj\Debug\net10.0\ref\exp_1.dll

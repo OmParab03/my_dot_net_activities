@@ -1,0 +1,15 @@
+D:\class\my_dot_net_activities\class\generics_lambda_exp\bin\Debug\net10.0\generics_lambda_exp.exe
+D:\class\my_dot_net_activities\class\generics_lambda_exp\bin\Debug\net10.0\generics_lambda_exp.deps.json
+D:\class\my_dot_net_activities\class\generics_lambda_exp\bin\Debug\net10.0\generics_lambda_exp.runtimeconfig.json
+D:\class\my_dot_net_activities\class\generics_lambda_exp\bin\Debug\net10.0\generics_lambda_exp.dll
+D:\class\my_dot_net_activities\class\generics_lambda_exp\bin\Debug\net10.0\generics_lambda_exp.pdb
+D:\class\my_dot_net_activities\class\generics_lambda_exp\obj\Debug\net10.0\generics_lambda_exp.GeneratedMSBuildEditorConfig.editorconfig
+D:\class\my_dot_net_activities\class\generics_lambda_exp\obj\Debug\net10.0\generics_lambda_exp.AssemblyInfoInputs.cache
+D:\class\my_dot_net_activities\class\generics_lambda_exp\obj\Debug\net10.0\generics_lambda_exp.AssemblyInfo.cs
+D:\class\my_dot_net_activities\class\generics_lambda_exp\obj\Debug\net10.0\generics_lambda_exp.csproj.CoreCompileInputs.cache
+D:\class\my_dot_net_activities\class\generics_lambda_exp\obj\Debug\net10.0\generics_lambda_exp.sourcelink.json
+D:\class\my_dot_net_activities\class\generics_lambda_exp\obj\Debug\net10.0\generics_lambda_exp.dll
+D:\class\my_dot_net_activities\class\generics_lambda_exp\obj\Debug\net10.0\refint\generics_lambda_exp.dll
+D:\class\my_dot_net_activities\class\generics_lambda_exp\obj\Debug\net10.0\generics_lambda_exp.pdb
+D:\class\my_dot_net_activities\class\generics_lambda_exp\obj\Debug\net10.0\generics_lambda_exp.genruntimeconfig.cache
+D:\class\my_dot_net_activities\class\generics_lambda_exp\obj\Debug\net10.0\ref\generics_lambda_exp.dll
