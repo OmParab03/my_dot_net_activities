@@ -144,6 +144,7 @@
             IMessage email = new Email();
             Notification n = new Notification(email);
             n.Notify();
+            Console.ReadLine();
         }
     }
 }

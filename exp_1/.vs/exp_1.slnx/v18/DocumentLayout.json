@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\class\\my_dot_net_activities\\class\\exp_1\\",
+  "WorkspaceRootPath": "D:\\class\\my_dot_net_activities\\exp_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B4D8D62-613E-4E54-922A-4808387DB3EF}|exp_1.csproj|d:\\class\\my_dot_net_activities\\class\\exp_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B4D8D62-613E-4E54-922A-4808387DB3EF}|exp_1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\class\\my_dot_net_activities\\exp_1\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\class\\my_dot_net_activities\\class\\exp_1\\Program.cs",
+              "DocumentMoniker": "D:\\class\\my_dot_net_activities\\exp_1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\class\\my_dot_net_activities\\class\\exp_1\\Program.cs",
+              "ToolTip": "D:\\class\\my_dot_net_activities\\exp_1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-10T14:22:38.777Z",
               "EditorCaption": ""

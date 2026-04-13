@@ -99,6 +99,7 @@
 
             Shape s = new Circle();
             s.Draw();
+            Console.ReadLine();
         }
     }
 }

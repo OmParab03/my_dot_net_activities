@@ -20,6 +20,7 @@
             Console.WriteLine("Subtraction: " + sub);
             Console.WriteLine("Multiplication: " + mul);
             Console.WriteLine("Division: " + div);
+            Console.ReadLine();
         }
     }
 }
