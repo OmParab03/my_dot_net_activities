@@ -1,0 +1,5 @@
+1 code reusability 
+2 type safety
+3 better performance
+4 cleaner code
+5 create reusalr code 

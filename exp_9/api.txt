@@ -1,0 +1,25 @@
+--web api
+-it is a communication between frontend and backend 
+-eg swiggy , instagram 
+
+--REST api
+-usese http methods , works with json 
+
+--http
+-get --featch dats,
+-post -- add student , 
+-put
+-delete
+
+activity :
+1 . what is web api and REST api deep study with example
+
+2 . learn http methods with proper example. 
+
+3 . which http methos using what is response we get , understand the flow of web api wit swagger
+   --web api -- communication
+   --controller - handler 
+   --http methods --action
+   --swagger --tessting tool
+
+

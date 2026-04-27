@@ -1,0 +1,22 @@
+@page "{id:int}"
+@model dotnet.Pages.customer.Delete
+@{
+    ViewData["Title"] = "Delete Customer";
+}
+
+<div class="mx-auto rounded border p-4" style="width: 400px;">
+    <h2>Delete Customer</h2>
+
+    <p>Are you sure you want to delete this customer?</p>
+
+    <p>
+        <strong>Customer ID:</strong> @Model.Id
+    </p>
+
+    <form method="post">
+        <input type="hidden" asp-for="Id" />
+
+        <button type="submit" class="btn btn-danger">Delete</button>
+        <a asp-page="/customer/Index" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>

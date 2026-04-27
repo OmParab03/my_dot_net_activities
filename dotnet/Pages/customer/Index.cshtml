@@ -1,0 +1,39 @@
+@page
+@model dotnet.Pages.customer.Index
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Email</th>
+            
+            </tr>
+            </thead>
+                <tbody>
+                @foreach (var customer in Model.listCustomers)
+                    {
+                    <tr>
+                        <td>@customer.Id</td>
+                        <td>@customer.Name</td>
+                        <td>@customer.Email</td>
+                        <td>
+                        <a href="/customer/Edit?id=@customer.Id" class="btn btn-primary">Edit</a>
+                        <a asp-page="/customer/Delete"
+                            asp-route-id="@customer.Id"
+                            class="btn btn-danger">
+                                Delete
+                        </a>
+                        </td>
+                    
+                    </tr>
+                    }
+    </tbody>
+    </table>
+</div>

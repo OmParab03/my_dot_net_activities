@@ -1,0 +1,4 @@
+1 separation of concerns
+2 easy maintainance
+3 teamwork friendly
+4 reusable code

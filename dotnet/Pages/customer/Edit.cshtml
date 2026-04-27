@@ -1,0 +1,30 @@
+@page
+@model dotnet.Pages.customer.Edit
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>@ViewData["Title"]</h1>
+<div>
+<form method="post">
+    <input type="hidden" asp-for="id" />
+
+    <div class="row mb-3">
+        <label class="col-sm-4 col-form-label">Name</label>
+        <div class="col-sm-8">
+            <input class="form-control" asp-for="name" />
+            <span asp-validation-for="name" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-4 col-form-label">Email</label>
+        <div class="col-sm-8">
+            <input class="form-control" asp-for="email" />
+            <span asp-validation-for="email" class="text-danger"></span>
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Update</button>
+</form>
+</div>

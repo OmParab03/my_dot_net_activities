@@ -1,0 +1,64 @@
+entity framework is a tool that help us work with database using c# code instead of SQL queries.
+
+--importance--
+-less code
+-easy to maintain
+-fast development
+ 
+--types 
+entity framework
+-older version
+-heavy
+-only for windows
+
+
+entity framework core
+-advanced version
+-light weight
+-different platform support(linux ,windows ,mac)
+
+--ORM
+-object relational mappings
+-it maps C# classes to database tables
+-object to row
+eg : 
+ public class student{
+    public string name{get,set};
+    public int id{get,set};
+ }
+
+===============================================================================================================
+
+--types of coding approach--
+1. code first approach --start with coding , create c# classes database create automatically.
+2. database first approach --if database already present then only classes need to be generate.
+3. Model first --design Model first then db create.
+
+
+--database context for code first approach------
+-database context is that class connect app with database.
+
+public db_set<table_name>students{get,set}
+database context is a bridge between app and database.
+
+
+
+================================================================================================================
+--Migration--
+-is to create and update database structure automatically
+
+eg : 
+ public class student{
+    public string name{get,set};
+    public int id{get,set};
+    public string email{get,set}; // Migration update database table and add new coloum
+ }
+
+=================================================================================================================
+
+--CRUD--
+create- insert
+read- select
+update- delete->create
+delete- remove
+ 
