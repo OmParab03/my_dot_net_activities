@@ -1,0 +1,39 @@
+@page
+@model MobileStore.Pages.IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="text-center py-5">
+    <h1 class="display-4">📱 Mobile Store</h1>
+    <p class="lead text-muted">Manage your mobile phone inventory with ease.</p>
+    <a asp-page="/mobile/Index" class="btn btn-dark btn-lg me-2">View All Mobiles</a>
+    <a asp-page="/mobile/Create" class="btn btn-success btn-lg">+ Add Mobile</a>
+</div>
+
+<div class="row mt-4 text-center">
+    <div class="col-md-4">
+        <div class="card border-danger mb-3">
+            <div class="card-body">
+                <h4>🎮 Gaming</h4>
+                <p class="text-muted">High RAM, powerful processors for gaming phones.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card border-primary mb-3">
+            <div class="card-body">
+                <h4>📷 Photography</h4>
+                <p class="text-muted">Top camera systems and image processing.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card border-secondary mb-3">
+            <div class="card-body">
+                <h4>📱 General</h4>
+                <p class="text-muted">Balanced everyday smartphones for all needs.</p>
+            </div>
+        </div>
+    </div>
+</div>

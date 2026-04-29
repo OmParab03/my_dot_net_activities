@@ -28,8 +28,8 @@ namespace LoggingCachingDemo.Controllers
 
                 students = new List<Student>
                 {
-                    new Student { Id = 1, Name = "Shivani" },
-                    new Student { Id = 2, Name = "Rahul" }
+                    new Student { Id = 1, Name = "omamkr" },
+                    new Student { Id = 2, Name = "darshan" }
                 };
 
                 var options = new MemoryCacheEntryOptions()

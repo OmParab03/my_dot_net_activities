@@ -1,0 +1,53 @@
+@page
+@model MobileStore.Pages.Mobile.Index
+@{
+    ViewData["Title"] = "Mobile Inventory";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h1>📱 Mobile Inventory</h1>
+    <a asp-page="/mobile/Create" class="btn btn-success">+ Add Mobile</a>
+</div>
+
+<table class="table table-striped table-hover">
+    <thead class="table-dark">
+        <tr>
+            <th>#</th>
+            <th>Brand</th>
+            <th>Model</th>
+            <th>Price (₹)</th>
+            <th>Focus</th>
+            <th>RAM</th>
+            <th>Storage</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var m in Model.Mobiles)
+        {
+            <tr>
+                <td>@m.Id</td>
+                <td><strong>@m.Brand</strong></td>
+                <td>@m.Model</td>
+                <td>₹@m.Price.ToString("N0")</td>
+                <td>
+                    @{
+                        var badge = m.Focus switch {
+                            "Gaming"      => "danger",
+                            "Photography" => "primary",
+                            "General"     => "secondary",
+                            _             => "info"
+                        };
+                    }
+                    <span class="badge bg-@badge">@m.Focus</span>
+                </td>
+                <td>@m.RamGb GB</td>
+                <td>@m.StorageGb GB</td>
+                <td>
+                    <a href="/mobile/Edit?id=@m.Id" class="btn btn-sm btn-primary">Edit</a>
+                    <a asp-page="/mobile/Delete" asp-route-id="@m.Id" class="btn btn-sm btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
